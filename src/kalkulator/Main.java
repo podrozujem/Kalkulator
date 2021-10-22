@@ -17,7 +17,10 @@ public class Main {
 		
 		do {
 			//kod koji se izvrsava 
-			s = scanner.nextLine(); 
+			s = scanner.nextLine();
+			if(s.equals("")) {
+				continue; 
+			}
 		}while(!s.equals("kraj"));
 	}
 

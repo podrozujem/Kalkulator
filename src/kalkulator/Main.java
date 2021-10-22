@@ -18,9 +18,17 @@ public class Main {
 		do {
 			//kod koji se izvrsava 
 			s = scanner.nextLine();
+			
 			if(s.equals("")) {
 				continue; 
 			}
+			
+			String[] pars = s.split(" "); 
+			
+			if(pars.length != 3){
+				continue; 
+			}
+			
 		}while(!s.equals("kraj"));
 	}
 
